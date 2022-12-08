@@ -1,0 +1,8 @@
+<div class="menudetail" *ngIf="menu">
+  <img [src]="menu.url" class="cover" /><br />
+  <h3>{{ menu.name }}</h3>
+  <p>{{ menu.en }}</p>
+  <p>{{ menu.price | currency: 'JPY':true }}</p>
+  <p>{{ menu.calories }} kcal</p>
+  <p>{{ menu.description }}</p>
+</div>

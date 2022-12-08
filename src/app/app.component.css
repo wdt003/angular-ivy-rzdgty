@@ -1,0 +1,10 @@
+.toolbar {
+  background-color: beige;
+  padding: 20px;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

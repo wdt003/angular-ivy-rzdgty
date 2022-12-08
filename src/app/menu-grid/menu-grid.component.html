@@ -1,0 +1,7 @@
+<div class="container">
+  <div class="item" *ngFor="let menu of menus" routerLink="/{{ menu.id }}">
+    <img [src]="menu.url" class="cover" /><br />
+    <h3>{{ menu.name }}</h3>
+    <p>{{ menu.en }}</p>
+  </div>
+</div>
